@@ -1,0 +1,18 @@
+h1 {
+  color:rgb(76, 77, 78);
+  font-size:35px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+  background: antiquewhite;
+  display:flex;
+}
+.title{
+  margin:0 auto;
+
+}
+.container {
+  text-align: center;
+  margin-top:20px;
+}
+

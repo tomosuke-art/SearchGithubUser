@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+  <title>Serch Github</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="icon">
+      <i class="fab fa-github fa-6x"></i>
+    </div>
+    <div class="title">
+      <h1></i>Serch GitHub User</h1>
+    </div>
+  </header>
+  <div class="container">
+    <input id="userId" type="text" placeholder="アカウント名記入してね" size="30px"/>
+    <button onclick="main()">Get user info</button>
+    <!-- 整形したHTMLの挿入先 -->
+    <div id="result"></div>
+    <div class="bg-mask"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
